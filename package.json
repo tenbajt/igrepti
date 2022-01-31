@@ -1,11 +1,10 @@
 {
   "name": "igrepti-maintenance",
   "version": "1.0.0",
-  "private": true,
   "description": "IGRepti Maintenance",
-  "author": "Szymon Mazurczak",
+  "author": "Tenbajt <biuro@tenbajt.pl>",
   "keywords": [
-    "gatsby"
+    "igrepti"
   ],
   "scripts": {
     "develop": "gatsby develop",
