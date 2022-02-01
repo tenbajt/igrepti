@@ -119,7 +119,7 @@ const MaintenancePage = () => {
     return (
         <React.Fragment>
             <Helmet>
-                <title>Mleko prosto od krowy - 100% naturalne | Zamów z dostawą do domu</title>
+                <title>IGRepti - Hurtownia terrarystyczna</title>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"/>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"/>
             </Helmet>
