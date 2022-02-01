@@ -91,12 +91,12 @@ const ContactGroup = Styled.div`
 
 const ContactOption = Styled.div`
     width: 15rem;
-    color: ${color.gray(500)};
+    color: ${color.gray(600)};
     border: 1px solid ${color.gray(300)};
     display: flex;
     padding: 0.5rem 1rem;
     position: relative;
-    font-size: 1rem;
+    font-size: 0.875rem;
     border-radius: ${rounded.full};
     justify-content: center;
 `;
