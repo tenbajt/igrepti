@@ -83,10 +83,13 @@ const MessageButton = Styled(SignInButton)`
 
 const ContactGroup = Styled.div`
     gap: 1.5rem;
-    display: grid;
+    display: none;
     padding-bottom: 2.5rem;
     justify-content: center;
     grid-template-columns: repeat(2, auto);
+    ${breakpoint.md} {
+        display: grid;
+    }
 `;
 
 const ContactOption = Styled.div`
@@ -135,7 +138,7 @@ const MaintenancePage = () => {
                 </Text>
             </TextGroup>
             <ButtonGroup>
-                <CallButton forwardedAs="a" href="tel:+48798921454" icon="smartphone" iconColor={color.green(500)} iconHoverColor={color.green(400)}>
+                <CallButton forwardedAs="a" href="tel:+48727903522" icon="smartphone" iconColor={color.green(500)} iconHoverColor={color.green(400)}>
                     Zadzwoń
                 </CallButton>
                 <MessageButton forwardedAs="a" href="mailto:info@igrepti.com" icon="mail" iconColor={color.gray(300)} iconHoverColor={color.gray(400)}>
@@ -149,7 +152,7 @@ const MaintenancePage = () => {
                             smartphone
                         </ContactOptionIcon>
                     </ContactOptionIconWrapper>
-                    +48 727 928 080
+                    +48 727 903 522
                 </ContactOption>
                 <ContactOption>
                     <ContactOptionIconWrapper>
